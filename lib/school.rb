@@ -14,4 +14,7 @@ class School
     @roster => {student_name=>[grade]}
   end
   
+  def grade(student_grade)
+    roster[student_grade]
+  end 
 end
